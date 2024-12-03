@@ -91,7 +91,7 @@ cmd({
 },
 async (conn, mek, m, { prefix, from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/Mreply.json')).replyMsg
+        const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/Mreply.json')).replyMsg
         if(!q) return reply(msr.giveme)
         //if (q.includes('https://youtu.be/')) return await reply(msr.not_fo)
     
@@ -102,7 +102,7 @@ async (conn, mek, m, { prefix, from, quoted, body, isCmd, command, args, q, isGr
         const data = search.videos[0];
         const url = data.url;
 
-const ownerdata = (await axios.get('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/ditels/ditels.json')).data
+const ownerdata = (await axios.get('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/ditels/ditels.json')).data
             let LOGO = ownerdata.imageurl;
             let BTN = ownerdata.button;
             let FOOTER = ownerdata.footer;
@@ -151,7 +151,7 @@ cmd({
 async (conn, mek, m, { prefix, from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
 
-        const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/Mreply.json')).replyMsg
+        const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/Mreply.json')).replyMsg
         if(!q) return reply(msr.giveme)
         //if (q.includes('https://youtu.be/')) return await reply(msr.not_fo)
     
@@ -160,7 +160,7 @@ async (conn, mek, m, { prefix, from, quoted, body, isCmd, command, args, q, isGr
         const search = await yts(q);
         const data = search.videos[0];
         const url = data.url;
-const ownerdata = (await axios.get('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/ditels/ditels.json')).data
+const ownerdata = (await axios.get('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/ditels/ditels.json')).data
             let LOGO = ownerdata.imageurl;
             let BTN = ownerdata.button;
             let FOOTER = ownerdata.footer;
@@ -213,7 +213,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
- const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/Mreply.json')).replyMsg   
+ const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/Mreply.json')).replyMsg   
 if(!q) return reply(msr.url)
 if (!q.includes('https://youtube.com/watch?v=')) return await reply(msr.not_fo)
 
@@ -243,11 +243,11 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
- const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/Mreply.json')).replyMsg   
+ const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/Mreply.json')).replyMsg   
 if(!q) return reply(msr.url)
 if (!q.includes('https://youtube.com/watch?v=')) return await reply(msr.not_fo)
 
-    const ownerdata = (await axios.get('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/ditels/ditels.json')).data
+    const ownerdata = (await axios.get('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/ditels/ditels.json')).data
 let LOGO = ownerdata.imageurl;
 let BTN = ownerdata.button;
 let FOOTER = ownerdata.footer;
@@ -291,7 +291,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
     
-        const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/Mreply.json')).replyMsg;
+        const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/Mreply.json')).replyMsg;
 
         const pm = q.split(" & ")[0];
         const rr = q.split(" & ")[1];
@@ -324,14 +324,14 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
   
- const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/Mreply.json')).replyMsg   
+ const msr = (await fetchJson('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/Mreply.json')).replyMsg   
 
       const pm = q.split(" & ")[0];
         const rr = q.split(" & ")[1];
         if (!pm) return reply(msr.url);
         if (!pm.includes('https://youtube.com/watch?v=')) return await reply(msr.not_fo);
 
-    const ownerdata = (await axios.get('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/ditels/ditels.json')).data
+    const ownerdata = (await axios.get('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/ditels/ditels.json')).data
 let LOGO = ownerdata.imageurl;
 let BTN = ownerdata.button;
 let FOOTER = ownerdata.footer;
@@ -373,7 +373,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, sender, repl
     
         // Ensure a search query is provided
         if (!q) return reply("Please provide a search term!");
-        const ownerdata = (await axios.get('https://raw.githubusercontent.com/athulakumara604/KD_PANTA_00-DATABASE/refs/heads/main/Mreply.json')).data
+        const ownerdata = (await axios.get('https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/Mreply.json')).data
 let LOGO = ownerdata.imageurl;
 let BTN = ownerdata.button;
 let FOOTER = ownerdata.footer;
