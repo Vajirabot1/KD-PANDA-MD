@@ -69,8 +69,8 @@ let dl = await fg.yta(url)
 let sendapk = await conn.sendMessage(from , { audio : { url : dl.dl_url  } ,mimetype: 'audio/mpeg', fileName : dl.title + '.' + 'mp3'} , { quoted: mek })
 await conn.sendMessage(from, { react: { text: '📁', key: sendapk.key }})
 await conn.sendMessage(from, { react: { text: '✔', key: mek.key }})
-} catch (e) {
-  reply('*ERROR !!*')
-l(e)
-}
-})
+    } catch (e) {
+        reply('Error !!');
+        console.error(e);
+    }
+});
