@@ -48,7 +48,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
         const translationMessage = `
 ╭┈───────────────•
-│ *[ • SILENT-SOBX-MD - TRANSLATION‎ • ]*
+│ *[ • KD_PANTA_00-MD - TRANSLATION‎ • ]*
 ╰┈───────────────•
 ╭┈───────────────•
 │  ◦ 🔤 *Original*: ${textToTranslate}
@@ -61,7 +61,7 @@ async (conn, mek, m, { from, q, reply }) => {
 ╰┈───────────────•
 
 *•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²
+> © 👿☠️_KD_PANTA_00_☠️👿
 *•────────────•⟢*
 `;
 
