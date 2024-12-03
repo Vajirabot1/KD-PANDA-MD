@@ -22,7 +22,7 @@ contact me 923096287432 ♻️
 
 const config = require('../config')
 const l = console.log
-const { cmd, commands } = require('../commands')
+const { cmd, commands } = require('../command')
 const dl = require('@bochilteam/scraper')  
 const ytdl = require("@distube/ytdl-core")
 const yts = require('yt-search');
