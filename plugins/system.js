@@ -69,7 +69,7 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, send
 
 try{
 let madeSetting =`
-*[ •  SILENT-SOBX-MD - SETTINGS‎ • ]*
+*[ •  KD_PANTA_00-MD - SETTINGS‎ • ]*
 *╭┈───────────────•*
 *┊* *♾️ AUTO_READ_STATUS:* ➠ ${config.AUTO_READ_STATUS}
 *┊* *♾️ MODE:* ➠ ${config.MODE} 
@@ -89,7 +89,7 @@ let madeSetting =`
 *┊* *♾️ READ_MESSAGE:* ➠ ${config.READ_MESSAGE}
 *╰┈───────────────•*
 *•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²
+> © 👿☠️_KD_PANTA_00_☠️👿
 *•────────────•⟢*
 `
 
@@ -113,7 +113,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let status = `
-*[ •  SILENT-SOBX-MD - UPTIME ‎ • ]*
+*[ •  KD_PANTA_00-MD - UPTIME ‎ • ]*
 *╭┈───────────────•*
 *│  ◦* *_UPTIME:➠_*
 *│  ◦* ${runtime(process.uptime())}
@@ -127,7 +127,7 @@ let status = `
 *╰┈───────────────•*
 
 *•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²
+> © 👿☠️_KD_PANTA_00_☠️👿
 *•────────────•⟢*
 `
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:`${status}`},{quoted:mek})
@@ -151,21 +151,21 @@ try{
 let repo =`
 *[ •  B O T - O W N E R ‎ • ]*
 *╭┈───────────────•*
-*│  ◦* *SILENTLOVER432*
+*│  ◦* *KD_PANTA_00*
 *╰┈───────────────•*
 
-*[ •  SILENT-SOBX-MD - REPO ‎ • ]*
+*[ •  KD_PANTA_00-MD - REPO ‎ • ]*
 *╭┈───────────────•*
-*│  ◦* *https://github.com/SILENTLOVER40/SILENT-SOBX-MD*
+*│  ◦* *https://github.com/*
 *╰┈───────────────•*
 
 *[ •  SUPPORT - GROUP‎ • ]*
 *╭┈───────────────•*
-*│  ◦* *https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s*
+*│  ◦* **
 *╰┈───────────────•*
 
 *•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²
+> © 👿☠️_KD_PANTA_00_☠️👿
 *•────────────•⟢*
 `
 await conn.sendMessage(from, { text: repo ,
@@ -176,7 +176,7 @@ await conn.sendMessage(from, { text: repo ,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363232588171807@newsletter',
-      newsletterName: "SILENTLOVER432",
+      newsletterName: "KD_PANTA_00",
       serverMessageId: 999
     },
 externalAdReply: { 
