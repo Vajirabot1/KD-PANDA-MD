@@ -33,7 +33,35 @@ function formatNumber(num) {
     return String(num).padStart(2, '0');
 } 
 
-        // Perform YouTube search using yt-search
+
+
+
+
+function ytreg(url) {
+    const ytIdRegex = /(?:http(?:s|):\/\/|)(?:(?:www\.|)youtube(?:\-nocookie|)\.com\/(?:watch\?.*(?:|\&)v=|embed|shorts\/|v\/)|youtu\.be\/)([-_0-9A-Za-z]{11})/
+    return ytIdRegex.test(url);
+}
+
+
+
+// Function to extract the video ID from youtu.be or YouTube links
+function extractYouTubeId(url) {
+    const regex = /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:watch\?v=|embed\/|v\/|shorts\/|playlist\?list=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
+    const match = url.match(regex);
+    return match ? match[1] : null;
+
+
+        function convertYouTubeLink(q) {
+    const videoId = extractYouTubeId(q);
+    if (videoId) {
+        return `https://www.youtube.com/watch?v=${videoId}`;
+    }
+    return q;
+}
+
+
+
+
         cmd({
   pattern: "song",
   category: "download",
